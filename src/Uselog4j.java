@@ -1,4 +1,3 @@
-package Log4j;
 
 import java.io.UnsupportedEncodingException;
 
@@ -10,9 +9,9 @@ import org.apache.commons.logging.LogFactory;
  * 
  * @author liaoxuefeng
  */
-public class Main {
+public class Uselog4j {
 
-	static final Log log = LogFactory.getLog(Main.class);
+	static final Log log = LogFactory.getLog(Uselog4j.class);
 
 	public static void main(String[] args) {
 		log.info("Start process...");
