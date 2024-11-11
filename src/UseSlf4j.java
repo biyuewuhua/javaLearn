@@ -18,7 +18,7 @@ public class UseSlf4j {
 		logger.info("Start process {}...", UseSlf4j.class.getName());
 		try {
 			"".getBytes("invalidCharsetName");
-		} catch (UnsupportedEncodingException e) {
+		} catch (Exception e) {
 			// TODO: 使用logger.error(String, Throwable)打印异常
 			logger.error("get exception!", e);
 		}
